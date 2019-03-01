@@ -91,15 +91,20 @@ public class TouziShowAdapter extends BaseAdapter {
         viewHolder.tv_objname.setText(showBean.getData().getPageInfo().getList().get(i).getItems_name());
         viewHolder.tv_leixing.setText(showBean.getData().getPageInfo().getList().get(i).getItems_type());
         //转换类型状态
-        if (showBean.getData().getPageInfo().getList().get(i).getFunding_type().equals("1")) {
-            viewHolder.tv_shouyiquan.setText("股权");
-        } else if (showBean.getData().getPageInfo().getList().get(i).getFunding_type().equals("2")) {
-            viewHolder.tv_shouyiquan.setText("消费权");
-        } else if (showBean.getData().getPageInfo().getList().get(i).getFunding_type().equals("3")) {
-            viewHolder.tv_shouyiquan.setText("收益权");
-        } else {
+        if(showBean.getData().getPageInfo().getList().get(i).getFunding_type()==null){
             viewHolder.tv_shouyiquan.setText("");
+        }else {
+            if (showBean.getData().getPageInfo().getList().get(i).getFunding_type().equals("1")) {
+                viewHolder.tv_shouyiquan.setText("股权");
+            } else if (showBean.getData().getPageInfo().getList().get(i).getFunding_type().equals("2")) {
+                viewHolder.tv_shouyiquan.setText("消费权");
+            } else if (showBean.getData().getPageInfo().getList().get(i).getFunding_type().equals("3")) {
+                viewHolder.tv_shouyiquan.setText("收益权");
+            } else {
+                viewHolder.tv_shouyiquan.setText("");
+            }
         }
+
         viewHolder.tv_dizhi.setText(showBean.getData().getPageInfo().getList().get(i).getItems_site());
         if (showBean.getData().getPageInfo().getList().get(i).getItems_comment()==null){
 
