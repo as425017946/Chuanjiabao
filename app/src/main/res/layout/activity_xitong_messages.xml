@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/wholebg"
+    tools:context=".touzi.XitongMessagesActivity">
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/templatenavigationbar"></include>
+    <!--<ListView-->
+        <!--android:id="@+id/xitong_listview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:divider="@null"></ListView>-->
+    <friendgoods.vidic.com.generalframework.view.XListView
+        android:id="@+id/xlistview_xitong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:cacheColorHint="#00000000"
+        android:scrollbars="none" >
+    </friendgoods.vidic.com.generalframework.view.XListView>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.wode.NichengActivity">
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/templatenavigationbar"></include>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nick_edt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/wholezitiinfo"
+            android:background="@null"
+            android:textSize="16sp"
+            android:hint="请输入昵称"/>
+        <ImageView
+            android:id="@+id/nick_img"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:src="@mipmap/close"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/nick_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/button"
+        android:text="提交"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+</LinearLayout>

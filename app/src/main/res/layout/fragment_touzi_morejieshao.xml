@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".touzi.more.TouziMorejieshaoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_margin="10dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="项目进展：" />
+              <TextView
+                  android:id="@+id/more_xiangmujieshao1"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="" />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_margin="10dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="物业权属：" />
+              <TextView
+                  android:id="@+id/more_xiangmujieshao2"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="" />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_margin="10dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="建筑面积：" />
+              <TextView
+                  android:id="@+id/more_xiangmujieshao3"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="" />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_margin="10dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="房间数/门店数：" />
+              <TextView
+                  android:id="@+id/more_xiangmujieshao4"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="" />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_margin="10dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="客单价：" />
+              <TextView
+                  android:id="@+id/more_xiangmujieshao5"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="" />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_margin="10dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="拟总投金额：" />
+              <TextView
+                  android:id="@+id/more_xiangmujieshao6"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="" />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_margin="10dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="拟众筹金额：" />
+              <TextView
+                  android:id="@+id/more_xiangmujieshao7"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="" />
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="20dp"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="补充说明：" />
+              <TextView
+                  android:id="@+id/more_xiangmujieshao8"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:text="" />
+          </LinearLayout>
+      </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

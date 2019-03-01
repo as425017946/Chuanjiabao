@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:myradio="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/radio_group"
+        android:background="#fff"
+        >
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_above="@+id/radio_group"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="8dp"
+        >
+
+        <friendgoods.vidic.com.generalframework.widget.MyRadioButton
+            android:id="@+id/home_radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:button="@null"
+            android:clickable="true"
+            android:onClick="onClick"
+            myradio:drawableTop="@drawable/selector_home"
+            android:textColor="@drawable/selector_click_text_color"
+            myradio:drawableSize="20dp"
+            android:gravity="center"
+            android:text="投资"
+            android:textSize="13sp"
+            />
+
+        <friendgoods.vidic.com.generalframework.widget.MyRadioButton
+            android:id="@+id/classify_radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:button="@null"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="@drawable/selector_click_text_color"
+            myradio:drawableTop="@drawable/selector_classify"
+            myradio:drawableSize="20dp"
+            android:gravity="center"
+            android:text="发现"
+            android:textSize="13sp"
+            />
+
+        <!--<friendgoods.vidic.com.generalframework.widget.MyRadioButton-->
+            <!--android:id="@+id/service_radio"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:background="#fff"-->
+            <!--android:button="@null"-->
+            <!--android:clickable="true"-->
+            <!--android:onClick="onClick"-->
+
+            <!--myradio:drawableTop="@drawable/selector_service"-->
+            <!--myradio:drawableSize="20dp"-->
+
+
+            <!--android:gravity="center"-->
+            <!--android:text="订单"-->
+            <!--android:textSize="13sp"-->
+            <!--/>-->
+
+        <friendgoods.vidic.com.generalframework.widget.MyRadioButton
+            android:id="@+id/mine_radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:button="@null"
+            android:clickable="true"
+            android:onClick="onClick"
+            myradio:drawableTop="@drawable/selector_mine"
+            android:textColor="@drawable/selector_click_text_color"
+            myradio:drawableSize="20dp"
+            android:gravity="center"
+            android:text="我的"
+            android:textSize="13sp"
+            />
+
+    </RadioGroup>
+
+
+</RelativeLayout>

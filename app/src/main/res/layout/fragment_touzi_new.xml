@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    tools:context=".touzi.TouziNewFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/wholebg"></View>
+    <TextView
+        android:id="@+id/touzi_new_no"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:text="暂无数据"/>
+    <friendgoods.vidic.com.generalframework.view.XListView
+        android:id="@+id/xlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:scrollbars="none" >
+    </friendgoods.vidic.com.generalframework.view.XListView>
+    <!--<com.handmark.pulltorefresh.library.PullToRefreshListView-->
+        <!--xmlns:ptr="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--ptr:ptrDrawable="@drawable/default_ptr_flip"-->
+        <!--ptr:ptrMode="both"-->
+        <!--android:background="@color/white"-->
+        <!--ptr:ptrAnimationStyle="flip"-->
+        <!--android:id="@+id/pull">-->
+    <!--</com.handmark.pulltorefresh.library.PullToRefreshListView>-->
+    <!--<ListView-->
+        <!--android:id="@+id/touzi_listviewnew"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="gone">-->
+
+    <!--</ListView>-->
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabnew"
+        android:layout_margin="10dp"
+        android:layout_gravity="bottom|end"
+        android:scaleType="center"
+        app:backgroundTint ="@android:color/transparent"
+        android:src="@mipmap/service"/>
+</FrameLayout>

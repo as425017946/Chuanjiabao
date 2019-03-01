@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:myradio="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/templatenavigationbar"></include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:background="#fafafa"/>
+    <ScrollView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+
+                android:layout_height="103dp"
+                android:src="@mipmap/risk_management"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="62dp"
+                android:gravity="center_horizontal"
+                android:text="风险测评"
+                android:textSize="18dp"
+                android:textColor="#44916c"/>
+            <TextView
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:gravity="center_horizontal"
+                android:text="为便于您了解自身的防线承受能力，选择合适你投资产品和服务，请填写以下风险承受能力评估问卷。评估结果仅供参考，不构成投资建议。我们建议您持续做好动态评估，并承诺保护您的所有个人隐私。"
+                android:textSize="15dp"
+                android:textColor="#909090"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/appraisal_evaluation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/button"
+        android:text="开始测评"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"/>
+</RelativeLayout>

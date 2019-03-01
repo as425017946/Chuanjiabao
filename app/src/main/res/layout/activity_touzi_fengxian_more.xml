@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wholemessage"
+    android:orientation="vertical"
+    tools:context=".touzi.more.TouziFengxianMoreActivity">
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/templatenavigationbarfxts"></include>
+    <ListView
+        android:id="@+id/touzisanji_listview"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

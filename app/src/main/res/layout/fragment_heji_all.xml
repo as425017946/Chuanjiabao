@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".faxian.fragment.HejiAllFragment">
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+        <!--<include android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--layout="@layout/templateheji"></include>-->
+    <!--</LinearLayout>-->
+    <!--<ListView-->
+        <!--android:id="@+id/wangqiheji_listview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:divider="@null"></ListView>-->
+    <friendgoods.vidic.com.generalframework.view.XListView
+        android:id="@+id/xlistview_heji"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:cacheColorHint="#00000000"
+        android:scrollbars="none" >
+    </friendgoods.vidic.com.generalframework.view.XListView>
+</FrameLayout>

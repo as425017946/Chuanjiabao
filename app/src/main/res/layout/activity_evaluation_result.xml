@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myradio="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/templatenavigationbar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="40dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="34dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="您投资的类型为"
+                        android:textColor="#3f3f3f"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/cepingjieguo_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="29dp"
+                        android:text=""
+                        android:textColor="@color/wholeSYTime"
+                        android:textSize="58dp" />
+
+                    <TextView
+                        android:id="@+id/cepingjieguo_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="38dp"
+                        android:text=""
+                        android:textColor="#8d8d8d"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/result_know"
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="107dp"
+                        android:background="@mipmap/button"
+                        android:gravity="center"
+                        android:text="我知道了"
+                        android:textColor="#fff"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="投资有风险，决策须谨慎"
+                        android:textColor="#4c4c4c"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/result_again"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:layout_marginTop="58dp"
+                        android:gravity="center_horizontal"
+                        android:text="重新测评"
+                        android:textColor="#44916c"
+                        android:visibility="gone"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

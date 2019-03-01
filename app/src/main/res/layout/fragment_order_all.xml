@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.wode.OrderAllFragment">
+
+    <!--<include android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/templateorder2"></include>-->
+    <!--<ListView-->
+        <!--android:id="@+id/order_alllistview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"></ListView>-->
+    <friendgoods.vidic.com.generalframework.view.XListView
+        android:id="@+id/xlistview_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:cacheColorHint="#00000000"
+        android:scrollbars="none" >
+    </friendgoods.vidic.com.generalframework.view.XListView>
+    <TextView
+        android:id="@+id/showtitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="暂无订单"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+</FrameLayout>

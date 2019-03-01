@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myradio="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wholemessage"
+    android:orientation="vertical">
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/templatenavigationbar"></include>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/coupon_xinxi"
+                android:layout_width="245dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/nine"
+                android:textSize="14sp"
+                android:background="@drawable/search_shape"
+                android:hint="输入兑换码" />
+
+            <TextView
+                android:id="@+id/coupon_tijiao"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="17dp"
+                android:text="兑换"
+                android:textColor="#44916c"
+                android:textSize="15dp" />
+        </LinearLayout>
+        <friendgoods.vidic.com.generalframework.view.XListView
+            android:id="@+id/youhui_xlistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:scrollbars="none"
+            android:divider="@null">
+
+        </friendgoods.vidic.com.generalframework.view.XListView>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--&lt;!&ndash; 高度30   此处设置宽度无效&ndash;&gt;-->
+    <!--<size android:height="25dp" />-->
+    <!--&lt;!&ndash; 圆角弧度 15 &ndash;&gt;-->
+    <!--<corners android:radius="100dp"/>-->
+
+    <!--<stroke android:color="#e4e4e4"-->
+        <!--android:width="1dp"/>-->
+    <!--&lt;!&ndash; 变化率  定义从左到右的颜色不变 &ndash;&gt;-->
+    <!--<gradient-->
+        <!--android:endColor="#ffffff"-->
+        <!--android:startColor="#ffffff" />-->
+
+    <size android:height="30dp"
+        android:width="60dp"></size>
+    <corners android:radius="20dp"/>
+    <stroke android:width="0.1dp" android:color="#eeeeee" />
+    <solid android:color="#eeeeee"></solid>
+</shape>

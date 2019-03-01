@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="wholegreen">#3e8e67</color>
+    <color name="wholetablayout">#010101</color>
+    <!--<color name="wholehx">#ccc</color>-->
+    <color name="wholehx">#ccc</color>
+    <color name="wholeSYTime">#6CBF85</color>>
+    <color name="wholebutton">#31C857</color>
+    <color name="wholeSYHX">#44916c</color>
+    <color name="wholeRGJD">#3182DE</color>
+    <color name="wholeJDT">#cccccc</color>
+    <color name="wholemessage">#f7f7f7</color>
+    <color name="wholepay">#fafafa</color>
+    <color name="wholepaymoney">#f05151</color>
+    <color name="wholergmore">#7f7f7f</color>
+    <color name="nine">#999</color>
+    <color name="wholebg">#f7f7f7</color>
+    <color name="wholeziti">#333333</color>
+    <color name="wholezitiinfo">#999999</color>
+    <color name="xiaofeiquanyi">#EEEEEE</color>
+</resources>
